@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="fwtrlabonnecarte">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/fwtrlabonnecarte.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
