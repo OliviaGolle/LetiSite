@@ -275,6 +275,7 @@ section
 	background: #88F156;
 	box-shadow: 0 0 1px 0 #FFFFFF inset, 0 0 1px 0 #FFFFFF;
 	text-align: center;
+	white-space: nowrap;
 }
 .button a
 {
@@ -287,6 +288,7 @@ section
 	font-weight: 500;
 	color: #fff;
 	z-index: 1;
+	white-space: nowrap;
 }
 .button a::before
 {
@@ -309,10 +311,12 @@ section
 	-ms-transition: all 200ms ease;
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
+	white-space: nowrap;
 }
 .button:hover a::before
 {
 	width: 100%;
+	white-space: nowrap;
 }
 .section_subtitle
 {
@@ -424,18 +428,21 @@ section
 	border-radius: 22px;
 	border: solid 1px #21C964;
 	box-shadow: 0 0 1px 0 #21C964 inset, 0 0 1px 0 #21C964;
+	white-space: nowrap;
 }
 .phone i
 {
 	font-size: 18px;
 	color: #21C964;
 	margin-right: 12px;
+	white-space: nowrap;
 }
 .phone > div
 {
 	font-size: 16px;
 	font-weight: 300;
 	color: #fff;
+	white-space: nowrap;
 }
 .hamburger_bar
 {

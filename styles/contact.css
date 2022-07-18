@@ -53,7 +53,8 @@ div
 ul
 {
 	list-style: none;
-	margin-bottom: 0px;
+	margin-bottom: 0px;	
+	white-space: nowrap;
 }
 p
 {
