@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Services</title>
+<title>Pratiques et approches</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="Letitia Sissoko template project">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+	<script>
+		$(function(){
+			$("#headerAndMenu").load("header.html");
+		});
+	</script>
 <link rel="stylesheet" type="text/css" href="styles/bootstrap-4.1.2/bootstrap.min.css">
 <link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
@@ -14,16 +20,11 @@
 <link href="plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" type="text/css" href="styles/pratiquesEtApproches.css">
 <link rel="stylesheet" type="text/css" href="styles/pratiquesEtApproches_responsive.css">
-	<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-	<script>
-		$(function(){
-			$("#header").load("header.html");
-		});
-	</script>
 </head>
 <body>
 <!-- Header -->
-<div id="header"></div>
+<div id="headerAndMenu"> </div>
+
 
 <div class="super_container">
 
@@ -37,7 +38,7 @@
 				<div class="row">
 					<div class="col">
 						<div class="home_content">
-							<div class="home_title">Pratiques et approches</div>
+							<div class="home_title" style="white-space:normal; line-height:1.5">Pratiques et approches</div>
 							<div class="home_subtitle">Sophrologie</div>
 						</div>
 					</div>
@@ -53,7 +54,7 @@
 			<div class="row">
 				<div class="col">
 					<div class="section_title_container">
-						<div class="section_subtitle">Je personnalise des séances de sophrologie et d’hypnose en fonction de vos besoins</div>
+						<div class="section_subtitle" style="white-space:normal">Je personnalise des séances de sophrologie et d’hypnose en fonction de vos besoins</div>
 						<div class="section_title">Prestation</div>
 					</div>
 				</div>
@@ -64,11 +65,11 @@
 				<div class="col-xl-4 col-md-6 service_col">
 					<div class="service">
 						<div class="service_title_container d-flex flex-row align-items-center justify-content-start">
-							<div><div class="service_icon"><img src="images/icon_4.png" alt=""></div></div>
-							<div class="service_title">Sophrologie</div>
+							<div><div class="service_icon"><img src="images/icon_4.png" alt="" style="width: 50px;height: 50px;"></div></div>
+							<div class="service_title" style="font-size:30px; position: relative; margin-left:auto">Sophrologie</div>
 						</div>
 						<div class="service_text">
-							<p>C’est une technique psychocorporelle non-tactile, créée en 1960 par le neuropsychiatre Alfonso Caycedo. Cette méthode s’inspire d’une part, de techniques occidentales comme l’hypnose, la psychanalyse, la méthode Coué, la relaxation progressive et le training autogène. D’autre part, de techniques orientales que sont le yoga, le bouddhisme tibétain et le zen japonais. Cette méthode a pour objectif d’harmoniser le corps et l’esprit.
+							<p style="text-align: justify; white-space: normal">C’est une technique psychocorporelle non-tactile, créée en 1960 par le neuropsychiatre Alfonso Caycedo. Cette méthode s’inspire d’une part, de techniques occidentales comme l’hypnose, la psychanalyse, la méthode Coué, la relaxation progressive et le training autogène. D’autre part, de techniques orientales que sont le yoga, le bouddhisme tibétain et le zen japonais. Cette méthode a pour objectif d’harmoniser le corps et l’esprit.
 							Pour amener la détente et favoriser l’émergence des ressentis, la sophrologie utilise 3 outils principaux que sont techniquement le relâchement musculaire associé à la respiration contrôlée puis la visualisation mentale.
 							</p>
 						</div>
@@ -82,32 +83,34 @@
 
 	<div class="extra d-flex flex-column align-items-center justify-content-center text-center">
 		<div class="background_image" style="background-image:url(images/extra_wide.jpg)"></div>
-		<div class="container">
-			<div class="row">
+		<div class="container" style=" margin-bottom: 15px;">
+			<div class="row services_row">
 				<div class="col-md-6 offset-md-3">
 					<div class="extra_content d-flex flex-column align-items-center justify-content-center text-center">
-						<div class="extra_title">Venez découvrir avec moi</div>
+						<div class="extra_title" style="color: #FFFFFF;font-size:30px" >Venez découvrir avec moi</div>
 						<div class="extra_text">
-							<p>Je propose des accompagnements individuels et personnalisés. Le premier rendez-vous consacré à réaliser un bilan, débute par une séance qui va nous permettre :</p>
-							<nav class="main_nav" aria-label="pratiqueEtApprochesMainNav">
+							<p style="color: #FFFFFF ; white-space: normal">Je propose des accompagnements individuels et personnalisés. Le premier rendez-vous consacré à réaliser un bilan, débute par une séance qui va nous permettre :</p>
+							<nav class="main_nav" aria-label="pratiqueEtApprochesMainNav" style="display: block">
 							<ul class="d-flex flex-row align-items-center justify-content-start">
-							<body>
 								<table>
 									<th></th>
 									<tr>
-										<td><li>d’identifier votre problématique, en clarifiant vos besoins et vos attentes</li></td>
-										<td><li>de prendre connaissance des bases et principes de la sophrologie</li></td>
+										<td>
+											<li STYLE="color: #FFFFFF;list-style-type: circle;padding:0 0 0 20px; text-align: left">d’identifier votre problématique, en clarifiant vos besoins et vos attentes</li>
+										</td>
+										<td>
+											<li STYLE="color: #FFFFFF;list-style-type: circle;padding:0 0 0 20px; text-align: left">de prendre connaissance des bases et principes de la sophrologie</li></td>
+										</td>
 									</tr>
 									<tr>
-										<td><li>de formaliser l’objectif de votre accompagnement</li></td>
-										<TD><li>de participer à une séance découverte pour expérimenter la technique</li></TD>
+										<td><li STYLE="color: #FFFFFF;list-style-type: circle;padding:0 0 0 20px; text-align: left">de formaliser l’objectif de votre accompagnement</li></td>
+										<td><li STYLE="color: #FFFFFF;list-style-type: circle;padding:0 0 0 20px; text-align: left">de participer à une séance découverte pour expérimenter la technique</li></td>
 									</tr>
 								</table>
-							</body>
 							</ul>
 							</nav>
 						</div>
-						<div class="button extra_button"><a href="contact.html">Contactez-moi</a></div>
+						<div class="button extra_button" style="margin-top: 20px"><a href="contact.html">Contactez-moi</a></div>
 					</div>
 				</div>
 			</div>
