@@ -1,0 +1,41 @@
+
+PWeb:AvoidCommentedOutCodeCheckL"Remove this commented out code.(á·õÑ8‰Š¾€¢0
+UWeb:AvoidCommentedOutCodeCheckM"Remove this commented out code.(šØüæûÿÿÿÿ8¥Š¾€¢0
+UWeb:AvoidCommentedOutCodeCheckN"Remove this commented out code.(¼ãÌøÿÿÿÿ8´Š¾€¢0
+UWeb:AvoidCommentedOutCodeCheckO"Remove this commented out code.(Û˜ª‹şÿÿÿÿ8´Š¾€¢0
+PWeb:AvoidCommentedOutCodeCheckP"Remove this commented out code.(œ²ª³8µŠ¾€¢0
+PWeb:AvoidCommentedOutCodeCheckQ"Remove this commented out code.(‹ü­½8µŠ¾€¢0
+OWeb:AvoidCommentedOutCodeCheckR"Remove this commented out code.(Š£¸u8µŠ¾€¢0
+UWeb:AvoidCommentedOutCodeCheckS"Remove this commented out code.(›½èíıÿÿÿÿ8µŠ¾€¢0
+PWeb:AvoidCommentedOutCodeCheckT"Remove this commented out code.(‹ü­½8¶Š¾€¢0
+PWeb:AvoidCommentedOutCodeCheckU"Remove this commented out code.(‹ü­½8¶Š¾€¢0
+PWeb:AvoidCommentedOutCodeCheckŠ"Remove this commented out code.(äæ¼M8ÿ—¼…¢0
+UWeb:TableWithoutCaptionCheck‘" Add a description to this table.(¶ˆ’åşÿÿÿÿ8²ä¥†¢0
+G	Web:S5256‘"%Add "<th>" headers to this "<table>".(¶ˆ’åşÿÿÿÿ8²ä¥†¢0
+K	Web:S1827‘")Remove this deprecated "rules" attribute.(¶ˆ’åşÿÿÿÿ8²ä¥†¢0
+QWeb:AvoidCommentedOutCodeCheck’"Remove this commented out code.(ÿõÙ„8²ä¥†¢0
+z%Web:ItemTagNotWithinContainerTagCheck©"<Surround this <li> item tag by a <ul> or <ol> container one.(Áÿ£Œøÿÿÿÿ8²ä¥†¢0
+z%Web:ItemTagNotWithinContainerTagCheckª"<Surround this <li> item tag by a <ul> or <ol> container one.(ıÛÎöøÿÿÿÿ8²ä¥†¢0
+z%Web:ItemTagNotWithinContainerTagCheck«"<Surround this <li> item tag by a <ul> or <ol> container one.(Ü¼Ÿ¾ùÿÿÿÿ8³ä¥†¢0
+z%Web:ItemTagNotWithinContainerTagCheck¬"<Surround this <li> item tag by a <ul> or <ol> container one.(Áü³Öşÿÿÿÿ8³ä¥†¢0
+z%Web:ItemTagNotWithinContainerTagCheck­"<Surround this <li> item tag by a <ul> or <ol> container one.(¿º—Ñúÿÿÿÿ8³ä¥†¢0
+z%Web:ItemTagNotWithinContainerTagCheck®"<Surround this <li> item tag by a <ul> or <ol> container one.(ÒõÜ«ıÿÿÿÿ8³ä¥†¢0
+z%Web:ItemTagNotWithinContainerTagCheck¯"<Surround this <li> item tag by a <ul> or <ol> container one.(ÚĞå‡ıÿÿÿÿ8³ä¥†¢0
+u%Web:ItemTagNotWithinContainerTagCheck°"<Surround this <li> item tag by a <ul> or <ol> container one.(“´Ëà8³ä¥†¢0
+u%Web:ItemTagNotWithinContainerTagCheck±"<Surround this <li> item tag by a <ul> or <ol> container one.(úÙ†8³ä¥†¢0
+z%Web:ItemTagNotWithinContainerTagCheck²"<Surround this <li> item tag by a <ul> or <ol> container one.(­Üªùÿÿÿÿ8³ä¥†¢0
+u%Web:ItemTagNotWithinContainerTagCheck³"<Surround this <li> item tag by a <ul> or <ol> container one.(ÊÍ‰8³ä¥†¢0
+u%Web:ItemTagNotWithinContainerTagCheck´"<Surround this <li> item tag by a <ul> or <ol> container one.(£÷ÿˆ8³ä¥†¢0
+u%Web:ItemTagNotWithinContainerTagCheck·"<Surround this <li> item tag by a <ul> or <ol> container one.(ÎÉíÓ8³ä¥†¢0
+z%Web:ItemTagNotWithinContainerTagCheck¸"<Surround this <li> item tag by a <ul> or <ol> container one.(»ÈåŞşÿÿÿÿ8³ä¥†¢0
+u%Web:ItemTagNotWithinContainerTagCheck¹"<Surround this <li> item tag by a <ul> or <ol> container one.(Ÿôäğ8´ä¥†¢0
+u%Web:ItemTagNotWithinContainerTagCheckº"<Surround this <li> item tag by a <ul> or <ol> container one.(ÿÀÖÖ8´ä¥†¢0
+z%Web:ItemTagNotWithinContainerTagCheck»"<Surround this <li> item tag by a <ul> or <ol> container one.(ÈÑ“ÿÿÿÿÿ8´ä¥†¢0
+z%Web:ItemTagNotWithinContainerTagCheck¼"<Surround this <li> item tag by a <ul> or <ol> container one.(ïç •øÿÿÿÿ8´ä¥†¢0
+z%Web:ItemTagNotWithinContainerTagCheck¿"<Surround this <li> item tag by a <ul> or <ol> container one.(áõ¾¶ÿÿÿÿÿ8´ä¥†¢0
+u%Web:ItemTagNotWithinContainerTagCheckÂ"<Surround this <li> item tag by a <ul> or <ol> container one.(³éô“8´ä¥†¢0
+u%Web:ItemTagNotWithinContainerTagCheckÃ"<Surround this <li> item tag by a <ul> or <ol> container one.(¡çİ8´ä¥†¢0
+z%Web:ItemTagNotWithinContainerTagCheckÄ"<Surround this <li> item tag by a <ul> or <ol> container one.(«§Â–ûÿÿÿÿ8´ä¥†¢0
+z%Web:ItemTagNotWithinContainerTagCheckÅ"<Surround this <li> item tag by a <ul> or <ol> container one.(¢×¹ûÿÿÿÿ8´ä¥†¢0
+z%Web:ItemTagNotWithinContainerTagCheckÆ"<Surround this <li> item tag by a <ul> or <ol> container one.(›¢Êşÿÿÿÿ8´ä¥†¢0
+z%Web:ItemTagNotWithinContainerTagCheckÇ"<Surround this <li> item tag by a <ul> or <ol> container one.(¦¡Ø†üÿÿÿÿ8´ä¥†¢0

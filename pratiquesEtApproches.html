@@ -12,6 +12,11 @@
 			$("#headerAndMenu").load("header.html");
 		});
 	</script>
+	<script>
+		$(window).resize(function() {
+			$('pratiquesEtApproches').css('z-index', 'auto'); //auto reflow
+		});
+	</script>
 <link rel="stylesheet" type="text/css" href="styles/bootstrap-4.1.2/bootstrap.min.css">
 <link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
@@ -39,7 +44,7 @@
 					<div class="col">
 						<div class="home_content">
 							<div class="home_title" style="white-space:normal; line-height:1.5">Pratiques et approches</div>
-							<div class="home_subtitle">Sophrologie</div>
+							<div class="home_subtitle">Sophrologie et hypnose ericksonnienne</div>
 						</div>
 					</div>
 				</div>
@@ -62,15 +67,32 @@
 			<div class="row services_row">
 				
 				<!-- Service -->
-				<div class="col-xl-4 col-md-6 service_col">
+				<div class="col-xl-6 col-md-6 service_col">
 					<div class="service">
 						<div class="service_title_container d-flex flex-row align-items-center justify-content-start">
 							<div><div class="service_icon"><img src="images/icon_4.png" alt="" style="width: 50px;height: 50px;"></div></div>
 							<div class="service_title" style="font-size:30px; position: relative; margin-left:auto">Sophrologie</div>
 						</div>
 						<div class="service_text">
-							<p style="text-align: justify; white-space: normal">C’est une technique psychocorporelle non-tactile, créée en 1960 par le neuropsychiatre Alfonso Caycedo. Cette méthode s’inspire d’une part, de techniques occidentales comme l’hypnose, la psychanalyse, la méthode Coué, la relaxation progressive et le training autogène. D’autre part, de techniques orientales que sont le yoga, le bouddhisme tibétain et le zen japonais. Cette méthode a pour objectif d’harmoniser le corps et l’esprit.
-							Pour amener la détente et favoriser l’émergence des ressentis, la sophrologie utilise 3 outils principaux que sont techniquement le relâchement musculaire associé à la respiration contrôlée puis la visualisation mentale.
+							<p style="text-align: justify; white-space: normal">C’est une technique psychocorporelle non-tactile, créée en 1960 par le neuropsychiatre Alfonso Caycedo.
+								Cette méthode s’inspire d’une part, de techniques occidentales comme l’hypnose, la psychanalyse, la méthode Coué, la relaxation progressive et le training autogène.
+								D’autre part, de techniques orientales que sont le yoga, le bouddhisme tibétain et le zen japonais. Cette méthode a pour objectif d’harmoniser le corps et l’esprit.
+								Pour amener la détente et favoriser l’émergence des ressentis, la sophrologie utilise 3 outils principaux que sont techniquement le relâchement musculaire associé à la respiration contrôlée puis la visualisation mentale.
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xl-6 col-md-6 service_col">
+					<div class="service">
+						<div class="service_title_container d-flex flex-row align-items-center justify-content-start">
+							<div><div class="service_icon"><img src="images/icon_5.png" alt="" style="width: 50px;height: 50px;"></div></div>
+							<div class="service_title" style="font-size:30px; position: relative; margin-left:auto; white-space: normal">Hypnose Ericksonnienne</div>
+						</div>
+						<div class="service_text">
+							<p style="text-align: justify; white-space: normal">C’est une technique faisant partie des thérapies brèves développée en 1980 par Milton Erickson, psychiatre et psychologue qui vise à modifier légèrement l’état de conscience afin d’accéder à l’inconscient.
+								Cette méthode se base sur le postulat que l’individu possède en lui les ressources nécessaires pour faire face à toutes les situations.
+								L’objectif est de vous permettre de puiser en vous les ressources nécessaires à la résolution de votre problème.
 							</p>
 						</div>
 					</div>
@@ -85,30 +107,31 @@
 		<div class="background_image" style="background-image:url(images/extra_wide.jpg)"></div>
 		<div class="container" style=" margin-bottom: 15px;">
 			<div class="row services_row">
-				<div class="col-md-6 offset-md-3">
+				<div class="col-md-20">
 					<div class="extra_content d-flex flex-column align-items-center justify-content-center text-center">
 						<div class="extra_title" style="color: #FFFFFF;font-size:30px" >Venez découvrir avec moi</div>
 						<div class="extra_text">
-							<p style="color: #FFFFFF ; white-space: normal">Je propose des accompagnements individuels et personnalisés. Le premier rendez-vous consacré à réaliser un bilan, débute par une séance qui va nous permettre :</p>
-							<nav class="main_nav" aria-label="pratiqueEtApprochesMainNav" style="display: block">
-							<ul class="d-flex flex-row align-items-center justify-content-start">
-								<table>
-									<th></th>
-									<tr>
-										<td>
-											<li STYLE="color: #FFFFFF;list-style-type: circle;padding:0 0 0 20px; text-align: left">d’identifier votre problématique, en clarifiant vos besoins et vos attentes</li>
-										</td>
-										<td>
-											<li STYLE="color: #FFFFFF;list-style-type: circle;padding:0 0 0 20px; text-align: left">de prendre connaissance des bases et principes de la sophrologie</li></td>
-										</td>
-									</tr>
-									<tr>
-										<td><li STYLE="color: #FFFFFF;list-style-type: circle;padding:0 0 0 20px; text-align: left">de formaliser l’objectif de votre accompagnement</li></td>
-										<td><li STYLE="color: #FFFFFF;list-style-type: circle;padding:0 0 0 20px; text-align: left">de participer à une séance découverte pour expérimenter la technique</li></td>
-									</tr>
-								</table>
-							</ul>
-							</nav>
+							<p style="color: #FFFFFF ; white-space: normal;font-weight: bold;">Je propose des accompagnements individuels et personnalisés. Le premier rendez-vous consacré à réaliser un bilan, débute par une séance qui va nous permettre :</p>
+								<div class="service">
+									<div class="service_text">
+										<li style="padding:0; color: #FFFFFF;list-style-type: disc;text-align: justify; white-space: normal;list-style-position: inside">d’identifier votre problématique, en clarifiant vos besoins et vos attentes	</li>
+									</div>
+								</div>
+								<div class="service">
+									<div class="service_text">
+										<li style="color: #FFFFFF;list-style-type: disc;text-align: justify; white-space: normal;list-style-position: inside">de prendre connaissance des bases et principes de la sophrologie</li>
+									</div>
+								</div>
+								<div class="service">
+									<div class="service_text">
+										<li style="color: #FFFFFF;list-style-type: disc;text-align: justify; white-space: normal;list-style-position: inside">de formaliser l’objectif de votre accompagnement</li>
+									</div>
+								</div>
+								<div class="service">
+									<div class="service_text">
+										<li style="color: #FFFFFF;list-style-type: disc;text-align: justify; white-space: normal;list-style-position: inside">de participer à une séance découverte pour expérimenter la technique</li>
+									</div>
+								</div>
 						</div>
 						<div class="button extra_button" style="margin-top: 20px"><a href="contact.html">Contactez-moi</a></div>
 					</div>
@@ -122,7 +145,7 @@
 	<footer class="footer">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-8 offset-lg-2">
+				<div class="col-lg-7 offset-lg-2">
 					<div class="footer_container">
 						<div class="footer_content">
 							<div class="footer_logo">
@@ -138,7 +161,7 @@
 									<li><a href="contact.html">Contact</a></li>
 								</ul>
 							</nav>
-							<div class="copyright d-flex flex-row align-items-start justify-content-sm-end justify-content-center"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+							<div class="copyright d-flex flex-row align-items-start justify-content-center justify-content-center"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
 						</div>

@@ -286,7 +286,11 @@
 
 @media only screen and (max-width: 539px)
 {
-	
+	.home_title
+	{
+		font-size: 38px;
+		margin-top: -4px;
+	}
 }
 
 /************
@@ -295,7 +299,10 @@
 
 @media only screen and (max-width: 480px)
 {
-	
+	.home_title
+	{
+		font-size: 28px;
+	}
 }
 
 /************
@@ -304,7 +311,11 @@
 
 @media only screen and (max-width: 479px)
 {
-	
+
+	.home_title
+	{
+		font-size: 18px;
+	}
 }
 
 /************
@@ -313,5 +324,9 @@
 
 @media only screen and (max-width: 400px)
 {
-	
+
+	.home_title
+	{
+		font-size: 8px;
+	}
 }

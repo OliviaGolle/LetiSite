@@ -158,7 +158,7 @@
 	}
 	.home_title
 	{
-		font-size: 72px;
+		font-size: 52px;
 		margin-top: -4px;
 	}
 	.home_subtitle
@@ -229,7 +229,10 @@
 
 @media only screen and (max-width: 539px)
 {
-	
+	.home_title
+	{
+		font-size: 38px;
+	}
 }
 
 /************
@@ -238,7 +241,10 @@
 
 @media only screen and (max-width: 480px)
 {
-	
+	.home_title
+	{
+		font-size: 38px;
+	}
 }
 
 /************
@@ -247,7 +253,10 @@
 
 @media only screen and (max-width: 479px)
 {
-	
+	.home_title
+	{
+		font-size: 28px;
+	}
 }
 
 /************
@@ -256,5 +265,8 @@
 
 @media only screen and (max-width: 400px)
 {
-	
+	.home_title
+	{
+		font-size: 28px;
+	}
 }
